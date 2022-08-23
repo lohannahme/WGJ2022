@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12c70b596a66dc345a0a4296839040e1, type: 3}
+  m_Name: ContarParaAlguem
+  m_EditorClassIdentifier: 
+  index: 0
+  dialogues:
+  - "Voc\xEA foi muito zoado. Personagens de filmes de terror normalmente n\xE3o
+    se importam com o perigo at\xE9 o final do segundo ato, ent\xE3o ningu\xE9m acredita
+    em voc\xEA."
+  choices:
+  - Arranjar o que fazer
+  art: {fileID: 21300000, guid: 318ce395e61f38b4b88a75e4b87dafd4, type: 3}
+  nextDialogueAnswers:
+  - {fileID: 11400000, guid: 0038e38f7a4c0b649b3dbfbd54b5e419, type: 2}

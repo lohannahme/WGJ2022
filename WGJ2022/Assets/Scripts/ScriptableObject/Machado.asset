@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12c70b596a66dc345a0a4296839040e1, type: 3}
+  m_Name: Machado
+  m_EditorClassIdentifier: 
+  index: 0
+  dialogues:
+  - "No acampamento, h\xE1 um machado perto de grandes troncos de \xE1rvore, era
+    seu trabalho cortar a lenha. Voc\xEA pega o machado?"
+  choices:
+  - SIM!
+  art: {fileID: 21300000, guid: a32a56b5c55856444997df21a66287b3, type: 3}
+  nextDialogueAnswers:
+  - {fileID: 11400000, guid: c0fa1742e78a3e943b13e85dcf370a37, type: 2}
